@@ -1,0 +1,32 @@
+﻿h1{
+    color:red;
+    font-family:sans-serif;
+    margin-right:-13%;
+}
+
+span {
+    color: blue;
+    width: 540px; 
+    height: auto;
+}
+
+
+.cbild{
+    width:30%;
+    margin-left:+35%;
+}
+
+.btn{
+    font-size:5rem;
+    margin-top:+2.5%;
+    text-align:center;
+}
+#btntxt {
+    
+    font-family:'Microsoft Sans Serif';
+    font-size: 150%;
+
+}
+#btntxt:hover{
+    color:red;
+}
