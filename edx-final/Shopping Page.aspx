@@ -33,7 +33,7 @@
     <button type="button" id="cat1" class="  row justify-content-start btn-default" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">
         Vegetables
     </button>
-
+       
     <div id="collapse" class=" collapse">
         Subcategory
     </div>
@@ -50,7 +50,11 @@
         Subcategory
     </div>
 
+        
+
     </div>
+
+
 
 
 

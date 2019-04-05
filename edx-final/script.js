@@ -1,1 +1,1 @@
-﻿
+﻿$(h3).dblclick(function () { alert('hello, world!'); });
