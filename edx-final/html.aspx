@@ -5,24 +5,29 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Final Exam</title>
-    <link href="style.css" rel="stylesheet" />
+    <title>Home Page</title>
+    
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" />
 </head>
-<body style="background-color:antiquewhite;">
-    
+<body style="background-color:lightsteelblue;">
     <script src="Scripts/jquery-3.3.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
+
+
+
     <%-- NAVBAR --%>
-    <div  class="test">
-       <nav class="navbar navbar-light bg-light " >
-        <h1 class="col-sm-4"><b>Online Grocery</b></h1>
-        <i id="cart" class="col-sm-1 fas fa-shopping-cart"></i>
+    <div >
+       <nav class="navbar navbar-light bg-light navbar " >
+        <h1 class="col-xs-2 ml-5  OC"><b>Grocery Cloud</b></h1>
+           <p id="Shptxt">Home Page</p>
+           <a style="color:black;" href="cart.aspx" title="Cart"><i id="cart" class="col-sxs-1 fas fa-shopping-cart"></i></a>
        </nav>
     </div>
+    <%--------------------------------------- rubric01 --------------------------------------------------%>
     <%--CAROUSEL --%>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div  id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -30,31 +35,47 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="cbild" src="img/apfel.png" alt="First slide">
+      <img class="cbild"  src="img/apfel.png" alt="First slide">
+        <p class="ap" >Fresh organic apples, just 5$ per pound!</p>
     </div>
     <div class="carousel-item">
       <img class="cbild" src="img/schokolade.png" alt="Second slide">
-        
+        <p class="ap" >Tasty sweet chocolate, just 8.45$ per bar!</p>
     </div>
     <div class="carousel-item">
       <img class="cbild " src="img/tomate.png" alt="Third slide">
+        <p class="ap">Juicy Tomatoes, just 3$ per pound!</p>
     </div>
   </div>
+        <%---------------- rubric02-----------------%>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
+        <%-------------- rubric03 ------------------------%>
   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
-    <%-- GO SHOPPING --%>
-    <div class=" col-sm-12 btn" role="group" >
-        
-        <button type="button" id="btntxt" class="btn btn-default"><b>Go Shopping</b></button>
-       
+    <%-----------------rubric 04--------%>
+    <div class=" row justify-content-center  " id="welcome">
+       <h2 id="welcometxt"">
+        Thank you for visiting Grocery Cloud, <p class="col-12">your online Grocery market!</p>
+       </h2>
     </div>
    
+    <%-------------------- rubric05------------------------ --%>
+    <%-- SHOP ALL --%>
+    <div class=" col-sm-12 btn"  >
+        
+        
+        <input id="btn" type="button" onclick="location.href='Shopping Page.aspx';" value="Shop All" />
+    </div> 
+    
 </body>
+    <footer class="col-12 navbar navbar-light bg-light navbar footer ">
+        <h1 id="foottxt" >Footer</h1>
+    </footer>
+    
 </html>

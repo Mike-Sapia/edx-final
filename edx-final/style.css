@@ -1,7 +1,13 @@
-﻿h1{
-    color:red;
-    font-family:sans-serif;
+﻿.OC{
+    color:black;
+    font-family:Calibri;
     margin-right:-13%;
+    font-style:italic;
+    font-size:1rem;
+}
+
+body{
+    height:100%;
 }
 
 span {
@@ -12,21 +18,421 @@ span {
 
 
 .cbild{
-    width:30%;
-    margin-left:+35%;
+    width:20%;
+    margin-left:+40%;
+    background-color:transparent;
+}
+.footer{
+    margin-top:-20% !important;
+}
+#btn {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom:+42%;
+    font-family:Calibri;
+    background-color:white;
+    border-style:solid;
+    border-color:darkgray;
+    font-weight:bold;
+
 }
 
-.btn{
-    font-size:5rem;
-    margin-top:+2.5%;
-    text-align:center;
+
+
+#btn:hover{
+    background-color:lightgray;
+     text-shadow: 0 0 1px black;
 }
-#btntxt {
+
+.ap {
+    text-align: center;
+    margin-bottom: +3%;
+    color: white;
+    font-size: 165%;
+    font-weight: bold;
+    text-shadow: 0 0 3px black;
+}
+   
+.navbar
+
+{
+    background-color: white !important;
+}
+
+.btnhome{
+    margin-top:1% !important;
+}
+cart{
+    color:white;
+}
+
+#shopbtn:hover
+{
+    background-color:gray;
+}
+    cart{
+        color:black !important;
+    }
+
+    /* --------------Extra small --------------------*/
     
-    font-family:'Microsoft Sans Serif';
-    font-size: 150%;
+    @media (max-device-width: 600px) {
+        #Shptxt {
+            font-size: 2.1rem;
+            color: black;
+            font-weight: bold;
+        }
+        #shopbtn:hover {
+            background-color: lightsteelblue !important;
+        }
+        #cat1:hover {
+            background-color: lightgray !important;
+        }
+        h3{
+        color:black;
+        font-family:Calibri;
+        font-weight:bold;
+    }
+        #cat1{
+            font-size:1.5rem !important;
+            background-color:white;
+            color:black;
+            font-weight:bold;
+            border-style:solid;
+            border-radius:1rem;
+            border-color:lightgray;
+            font-family:Calibri;
 
-}
-#btntxt:hover{
-    color:red;
-}
+        }
+        #shopcont{
+
+            margin-top:+2rem !important;
+            background-color:white !important;
+            border-radius:2rem;
+            border-style:solid;
+            border-color:lightgray;
+        }
+        #welcome {
+            margin-top: 3rem;
+            margin-left: 12rem;
+            color: white;
+            text-align: center;
+        }
+
+        .footer {
+            margin-top: +7rem !important;
+            background-color: white !important;
+            border-radius: 0rem !important;
+            position: absolute;
+            bottom: -10rem;
+        }
+
+        .ap {
+            font-size: 3rem;
+            margin-bottom: +7%;
+        }
+
+        #foottxt {
+            font-family: Calibri;
+            font-style: italic;
+            font-weight: lighter;
+            font-size: 2rem;
+        }
+
+
+        .OC {
+            font-size: 2.5rem;
+            color: black;
+        }
+
+        .cbild {
+            margin-top: 8rem;
+            width: 45%;
+            margin-left: +28%;
+        }
+
+        #btn {
+            margin-top: +10rem;
+            font-size: 3rem !important;
+            font-family: Calibri !important;
+            font-weight: bold !important;
+            border-radius:1rem;
+        }
+        #shopbtn {
+            font-size: 2.5rem !important;
+            font-family: Calibri !important;
+            font-weight: bold !important;
+            background-color:white !important;
+            border-radius:1rem !important;
+            border-style:solid !important;
+        }
+
+        h2 {
+            margin-left: -10rem;
+        }
+    }
+
+    /* ----------------Small ----------------- */
+    @media (min-device-width: 600px) {
+        #Shptxt {
+            font-size: 1.5rem;
+            color: black;
+            font-weight: bold;
+        }
+        #cat1:hover {
+            background-color: lightgray !important;
+        }
+        #shopbtn:hover {
+            background-color: lightgray !important; 
+        }
+        #shopcont {
+            margin-top: +2rem !important;
+            background-color: white !important;
+            border-radius: 2rem;
+            border-style: solid;
+            border-color: lightgray;
+        }
+        #cat1 {
+            font-size: 1.5rem !important;
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            border-style: solid;
+            border-radius: 1rem;
+            border-color: lightgray;
+            font-family: Calibri;
+        }
+        #shopbtn {
+            font-size: 3rem !important;
+            font-family: Calibri !important;
+            font-weight: bold !important;
+            background-color: white !important;
+            border-radius: 1rem !important;
+            border-style: solid !important;
+        }
+        #welcome {
+            margin-top: 5rem;
+            margin-left: 12rem;
+            color: white;
+            text-align: center;
+        }
+
+        #foottxt {
+            font-family: Calibri;
+            font-style: italic;
+            font-weight: lighter;
+            font-size: 2rem;
+        }
+
+        .OC {
+            font-size: 2.5rem;
+            color: black;
+        }
+
+        #btn {
+            margin-top: +10rem;
+            font-size: 3rem !important;
+            font-family: Calibri !important;
+            font-weight: bold !important;
+            border-radius: 1rem !important;
+        }
+
+        .ap {
+            font-size: 2.5rem;
+            margin-bottom: +7%;
+        }
+
+        .cbild {
+            margin-top: 8rem;
+            width: 30%;
+            margin-left: +35%;
+        }
+
+        .footer {
+            margin-top: -3rem !important;
+            background-color: white !important;
+            border-radius: 0rem !important;
+            position: absolute !important;
+            bottom: -12rem !important;
+        }
+
+        h2 {
+            margin-left: -10rem;
+        }
+    }
+
+    /* ----------------Medium -------------------- */
+    @media (min-device-width: 768px) {
+        #Shptxt {
+            font-size: 1.5rem;
+            color: black;
+            font-weight: bold;
+        }
+        #cat1:hover {
+            background-color: lightgray !important;
+        }
+        #shopbtn:hover {
+            background-color: lightgray !important;
+        }
+        #shopcont {
+            margin-top: +2rem !important;
+            background-color: white !important;
+            border-radius: 2rem;
+            border-style: solid;
+            border-color: lightgray;
+        }
+        #cat1 {
+            font-size: 1.5rem !important;
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            border-style: solid;
+            border-radius: 1rem;
+            border-color: lightgray;
+            font-family: Calibri;
+        }
+
+        #shopbtn {
+            font-size: 3rem !important;
+            font-family: Calibri !important;
+            font-weight: bold !important;
+            background-color: white !important;
+            border-radius: 1rem !important;
+            border-style: solid !important;
+        }
+        .OC {
+            font-size: 2rem;
+            color: black;
+        }
+
+        #btn {
+            margin-top: +5rem;
+            font-size: 2rem !important;
+            font-family: Calibri !important;
+            font-weight: bold !important;
+            border-radius: 1rem !important;
+        }
+
+        .ap {
+            font-size: 1.75rem;
+            margin-bottom: +7%;
+        }
+
+        .cbild {
+            margin-top: 8rem;
+            width: 20%;
+            margin-left: +39.5%;
+        }
+
+        .footer {
+            margin-top: -13rem !important;
+            background-color: white !important;
+            border-radius: 0rem !important;
+            position: absolute !important;
+            bottom: -25rem !important;
+        }
+
+        #welcome {
+            margin-top: 2rem;
+            margin-left: 12rem;
+            color: white;
+            text-align: center;
+            font-size: 4rem;
+            font-size: 10rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color:white;
+        }
+    }
+
+    /* ----------------Large --------------- */
+    @media (min-width: 992px) {
+        #Shptxt {
+            font-size: 1.5rem;
+            color: black;
+            font-weight:bold;
+        }
+        #cat1:hover {
+            background-color: lightgray !important;
+        }
+        #shopbtn:hover {
+            background-color: lightgray !important;
+        }
+        #shopcont {
+            margin-top: +2rem !important;
+            background-color: white !important;
+            border-radius: 2rem;
+            border-style: solid;
+            border-color: lightgray;
+        }
+        #cat1 {
+            font-size: 1.5rem !important;
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            border-style: solid;
+            border-radius: 1rem;
+            border-color: lightgray;
+            font-family: Calibri;
+        }
+        #shopbtn {
+            font-size: 2.5rem !important;
+            font-family: Calibri !important;
+            font-weight: bold !important;
+            background-color: white !important;
+            border-radius: 1rem !important;
+            border-style: solid !important;
+        }
+        .OC {
+            font-size: 1.5rem;
+            color: black;
+        }
+
+        #btn {
+            margin-top: +5rem;
+            font-size: 1.5rem !important;
+            font-family: Calibri !important;
+            font-weight: bold !important;
+            border-radius: 1rem !important;
+        }
+
+        .ap {
+            font-size: 1.3rem;
+            margin-bottom: +7%;
+        }
+
+        .cbild {
+            margin-top: 2rem;
+            width: 15%;
+            margin-left: +42%;
+        }
+
+        .footer {
+            margin-top: -13rem !important;
+            background-color: white !important;
+            border-radius: 0rem !important;
+            position: absolute !important;
+            bottom: -15rem !important;
+        }
+
+        #welcome {
+            margin-top: 2rem;
+            margin-left: 12rem;
+            color: white;
+            text-align: center;
+            font-size: 4rem;
+            font-size: 10rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+    }
+
+    /* Extra large */
+    @media (min-width: 1200px) {
+        
+    }
+    
