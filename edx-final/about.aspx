@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="cart.aspx.cs" Inherits="cart" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="about.aspx.cs" Inherits="about" %>
 
 <!DOCTYPE html>
 
@@ -22,7 +22,7 @@
     <div  class="test">
        <nav class="navbar navbar-light bg-light navbar " >
         <h1 class="col-xs-8 ml-5  OC"><b>Grocery Cloud</b></h1>
-           <p id="Shptxt">Cart</p>
+           <p id="Shptxt">About</p>
            <a style="color:black;" href="cart.aspx" title="Cart"><i id="cart" class="col-sxs-1 fas fa-shopping-cart"></i></a>
        </nav>
     </div>

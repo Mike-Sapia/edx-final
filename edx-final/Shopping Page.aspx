@@ -36,6 +36,7 @@
        
     <div id="collapse" class=" collapse">
         Subcategory
+        test
     </div>
         <button type="button" id="cat1" class="  row justify-content-start btn-default" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse">
         Sweets
@@ -59,8 +60,16 @@
 
 
 
+
     
     
 
 </body>
+    <footer class="col-12 navbar navbar-light bg-light navbar footer ">
+        <%-- Home Page Button --%>
+  
+        <a class="col-1 footcnt" href="html.aspx">home page</a>
+        <a class="col-1 footcnt"  href="about.aspx">about</a>
+        <a class="col-10 footcnt"  href="contact.aspx">contact</a>
+    </footer>
 </html>

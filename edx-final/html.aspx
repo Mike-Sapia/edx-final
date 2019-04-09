@@ -75,7 +75,11 @@
     
 </body>
     <footer class="col-12 navbar navbar-light bg-light navbar footer ">
-        <h1 id="foottxt" >Footer</h1>
+        <%-- Home Page Button --%>
+  
+        <a class="col-1 footcnt" href="html.aspx">home page</a>
+        <a class="col-1 footcnt"  href="about.aspx">about</a>
+        <a class="col-10 footcnt"  href="contact.aspx">contact</a>
     </footer>
     
 </html>

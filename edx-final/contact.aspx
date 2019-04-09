@@ -1,4 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="cart.aspx.cs" Inherits="cart" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="contact.aspx.cs" Inherits="contact" %>
+
+<!DOCTYPE html>
 
 <!DOCTYPE html>
 
@@ -7,7 +9,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Shopping cart</title>
+  <title>contact</title>
      <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" />
@@ -22,7 +24,7 @@
     <div  class="test">
        <nav class="navbar navbar-light bg-light navbar " >
         <h1 class="col-xs-8 ml-5  OC"><b>Grocery Cloud</b></h1>
-           <p id="Shptxt">Cart</p>
+           <p id="Shptxt">Contact</p>
            <a style="color:black;" href="cart.aspx" title="Cart"><i id="cart" class="col-sxs-1 fas fa-shopping-cart"></i></a>
        </nav>
     </div>

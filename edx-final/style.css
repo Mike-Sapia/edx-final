@@ -37,6 +37,9 @@ span {
 
 }
 
+.footcnt{
+    color:black;
+}
 
 
 #btn:hover{
@@ -77,6 +80,8 @@ cart{
     /* --------------Extra small --------------------*/
     
     @media (max-device-width: 600px) {
+        
+
         #Shptxt {
             font-size: 2.1rem;
             color: black;
