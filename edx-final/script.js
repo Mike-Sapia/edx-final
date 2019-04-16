@@ -1,1 +1,10 @@
-﻿$(h3).dblclick(function () { alert('hello, world!'); });
+﻿
+
+
+$("#checkout").click(function () {
+    alert("hi");
+});
+
+$("#send").click(function () {
+    alert("succesfully send");
+});

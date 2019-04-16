@@ -5,9 +5,107 @@
     font-style:italic;
     font-size:1rem;
 }
+#tss{
+    
+    font-weight:bold !important;
+}
+.indicator{
+    color:black!important;
+}
+#Categories {
+}
+#shopbutton {
+    margin-left: 48.5%;
+    background-color:white;
+    color:black !important;
+    border-color:lightgray;
+    font-weight:bold;
+}
 
-body{
-    height:100%;
+#shopbtntxt{
+    color:black;
+}
+#shopbtntxt:hover{
+    text-decoration:none;
+}
+#shopbutton:hover{
+    background-color:lightgray;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+}
+#credit
+{
+    font-size:1rem;
+}
+#bodyabout {
+    
+    background-color:lightsteelblue;
+}
+#abthd
+{
+    font-size:3rem;
+    text-align:center;
+    font-weight:bold;
+    margin-bottom:3rem;
+    
+}
+#send {
+    border-style: solid !important;
+    border-color: lightgray;
+}
+    #send:hover {
+        background-color: lightgray !important;
+    }
+#info{
+    margin-top:2.5rem;
+    font-style:italic;
+}
+.abouttxt{
+    font-size:2rem;
+    text-align:center;
+    font-weight:bold;
+    font-family:Calibri;
+}
+.abouttxt2 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: Calibri;
+    margin-bottom:5rem;
+}
+#aboutcont {
+    /*background-image: url("img/about-background.jpg") !important;
+    background-size:cover;*/
+}
+#checkout{
+    border-style:solid !important;
+    border-color:lightgray;
+}
+#checkout:hover
+{
+    background-color:lightgray!important;
+}
+.cat2 {
+     font-size:1rem !important;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: .5rem;
+    border-color: lightgray;
+    font-family: Calibri;
+}
+.cat2:hover{
+    background-color:lightgray;
+}
+body {
+    background-image: url("img/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+
 }
 
 span {
@@ -21,20 +119,11 @@ span {
     width:20%;
     margin-left:+40%;
     background-color:transparent;
+    background-color:transparent;
 }
-.footer{
-    margin-top:-20% !important;
-}
-#btn {
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom:+42%;
-    font-family:Calibri;
-    background-color:white;
-    border-style:solid;
-    border-color:darkgray;
-    font-weight:bold;
 
+#btn {
+  
 }
 
 .footcnt{
@@ -50,10 +139,10 @@ span {
 .ap {
     text-align: center;
     margin-bottom: +3%;
-    color: white;
+    color: black;
     font-size: 165%;
     font-weight: bold;
-    text-shadow: 0 0 3px black;
+    text-shadow: 0 0 3px lightgray;
 }
    
 .navbar
@@ -65,13 +154,10 @@ span {
 .btnhome{
     margin-top:1% !important;
 }
-cart{
-    color:white;
-}
 
 #shopbtn:hover
 {
-    background-color:gray;
+    background-color:lightgray;
 }
     cart{
         color:black !important;
@@ -80,8 +166,8 @@ cart{
     /* --------------Extra small --------------------*/
     
     @media (max-device-width: 600px) {
-        
 
+       
         #Shptxt {
             font-size: 2.1rem;
             color: black;
@@ -117,21 +203,14 @@ cart{
             border-style:solid;
             border-color:lightgray;
         }
-        #welcome {
+        #welcometxt {
             margin-top: 3rem;
             margin-left: 12rem;
-            color: white;
+            color: black;
             text-align: center;
         }
-
-        .footer {
-            margin-top: +7rem !important;
-            background-color: white !important;
-            border-radius: 0rem !important;
-            position: absolute;
-            bottom: -10rem;
-        }
-
+        /*rubric72*/
+      
         .ap {
             font-size: 3rem;
             margin-bottom: +7%;
@@ -183,6 +262,7 @@ cart{
             font-size: 1.5rem;
             color: black;
             font-weight: bold;
+            margin-left:5.5%;
         }
         #cat1:hover {
             background-color: lightgray !important;
@@ -252,14 +332,10 @@ cart{
             width: 30%;
             margin-left: +35%;
         }
+        /*rubric72*/
+      
 
-        .footer {
-            margin-top: -3rem !important;
-            background-color: white !important;
-            border-radius: 0rem !important;
-            position: absolute !important;
-            bottom: -12rem !important;
-        }
+
 
         h2 {
             margin-left: -10rem;
@@ -328,14 +404,8 @@ cart{
             width: 20%;
             margin-left: +39.5%;
         }
-
-        .footer {
-            margin-top: -13rem !important;
-            background-color: white !important;
-            border-radius: 0rem !important;
-            position: absolute !important;
-            bottom: -25rem !important;
-        }
+        /*rubric72*/
+      
 
         #welcome {
             margin-top: 2rem;
@@ -348,12 +418,14 @@ cart{
 
         h2 {
             font-size: 1.5rem;
-            color:white;
+            color:black;
         }
     }
 
     /* ----------------Large --------------- */
     @media (min-width: 992px) {
+
+
         #Shptxt {
             font-size: 1.5rem;
             color: black;
@@ -414,14 +486,9 @@ cart{
             width: 15%;
             margin-left: +42%;
         }
+        /*rubric72*/
+      
 
-        .footer {
-            margin-top: -13rem !important;
-            background-color: white !important;
-            border-radius: 0rem !important;
-            position: absolute !important;
-            bottom: -15rem !important;
-        }
 
         #welcome {
             margin-top: 2rem;

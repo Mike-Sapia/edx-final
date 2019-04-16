@@ -12,28 +12,90 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" />
 
+
 </head>
-<body style="background-color:lightsteelblue;">
-     <script src="Scripts/jquery-3.3.1.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
+<body class="body" >
+    
 
 
      <%-- NAVBAR --%>
-    <div  class="test">
+    <div >
        <nav class="navbar navbar-light bg-light navbar " >
-        <h1 class="col-xs-8 ml-5  OC"><b>Grocery Cloud</b></h1>
-           <p id="Shptxt">Cart</p>
+        <h1 class="col-6  OC"><b>Grocery Cloud</b></h1>
+           <p class="col-3" id="Shptxt">Cart</p>
+           <a class="col-1 footcnt" href="Shopping Page.aspx">Shop All</a>
+        <a class="col-1 footcnt"  href="about.aspx">about</a>
            <a style="color:black;" href="cart.aspx" title="Cart"><i id="cart" class="col-sxs-1 fas fa-shopping-cart"></i></a>
+
        </nav>
     </div>
      <%-- Home Page Button --%>
     <input id="shopbtn" class="btnhome"type="button" onclick="location.href='html.aspx';" value="Home Page" />
+    <div class="container jumbotron" id="shopcont">
+    <h1>
+        Cart Items
+    </h1>
+        <%-- rubric48    Enter of Shipping Details --%>
+        <h4>
+            Enter Shipping Details
+
+        </h4>
+        <%-- Input field for name,adress,city and phoen number --%>
+            <div class="input-group">
+                
+                <input type="text" class="form-control" placeholder="name">
+                <span class="input-group-addon"></span>
+                
+            </div>
+            <div class="input-group">
+                
+                <input type="text" class="form-control" placeholder="address">
+                <span class="input-group-addon"></span>
+            </div>
+            <div class="input-group">
+                
+                <input type="text" class="form-control" placeholder="city">
+                <span class="input-group-addon"></span>
+            </div>
+            <div class="input-group">
+                
+                <input type="number" class="form-control" placeholder="phone number">
+                <span class="input-group-addon"></span>
+            </div>
+            <button type="button" id="checkout" class="col-12-center btn btn-default">Checkout</button>
+        </div>
+        
+    
+
+      <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+        <script  type="text/javascript"  src="script.js"></script>
 </body>
     <footer class="col-12 navbar navbar-light bg-light navbar footer ">
+        <%--  --%>
+
+
+
         <%-- Home Page Button --%>
   
         <a class="col-1 footcnt" href="html.aspx">home page</a>
         <a class="col-1 footcnt"  href="about.aspx">about</a>
-        <a class="col-10 footcnt"  href="contact.aspx">contact</a>
+        <a class="col-7 footcnt"  href="contact.aspx">contact</a>
+        <a class="col-3"href="http://www.freepik.com">Background Image designed by lifeforstock / Freepik</a>
+       <%-- <a class="col-3"href="https://de.freepik.com/fotos-vektoren-kostenlos/hintergrund">Background Image created by topntp26 - de.freepik.com</a>--%>
     </footer>
+
+   
 </html>
+
+
+
+
+
+
+
+<script>
+    //$("#checkout").click(function () {
+    //    alert("hi");
+    //});
+</script>

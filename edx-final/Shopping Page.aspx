@@ -10,18 +10,21 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" />
 </head>
-<body style="background-color:lightsteelblue;">
+<body class="body">
     
     <script src="Scripts/jquery-3.3.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
 
 
      <%-- NAVBAR --%>
-    <div  class="test">
+    <div >
        <nav class="navbar navbar-light bg-light navbar " >
-        <h1 class="col-xs-8 ml-5  OC"><b>Grocery Cloud</b></h1>
-           <p id="Shptxt">Shop All</p>
+        <h1 class="col-6  OC"><b>Grocery Cloud</b></h1>
+           <p class="col-3" id="Shptxt">Shop All</p>
+           <a class="col-1 footcnt" href="html.aspx">home page</a>
+        <a class="col-1 footcnt"  href="Shopping Page.aspx">Shop All</a>
            <a style="color:black;" href="cart.aspx" title="Cart"><i id="cart" class="col-sxs-1 fas fa-shopping-cart"></i></a>
+
        </nav>
     </div>
     <%-- Home Page Button --%>
@@ -35,23 +38,44 @@
     </button>
        
     <div id="collapse" class=" collapse">
-        Subcategory
-        test
+
+        <button type="button" class="cat2 btn btn-default" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+            organic
+        </button>
+        <div id="collapse11" class="collapse">
+            APPLE
+        </div>
     </div>
+        <%-- Categories --%>
+        <div id="categories">
         <button type="button" id="cat1" class="  row justify-content-start btn-default" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse">
         Sweets
     </button>
     <div id="collapse1" class=" collapse">
-        Subcategory
+        
+        <button type="button"  class="cat2 btn btn-default" data-toggle="collapse" data-target="#collapse21" aria-expanded="false" aria-controls="collapse">
+            subcategory
+        </button>
+        <div id="collapse21" class="collapse">
+            chocolate
+        </div>
     </div>
+
         <button type="button" id="cat1" class="  row justify-content-start btn-default" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse">
         Fruits
     </button>
     <div id="collapse2" class=" collapse">
-        Subcategory
-    </div>
-
         
+        <button type="button" class="cat2 btn btn-default" data-toggle="collapse" data-target="#collapse31" aria-expanded="false" aria-controls="collapse31">
+            organic
+        </button>
+        <div id="collapse3131" class="collapse">
+            tomato
+        </div>
+    </div>
+ </div>
+        <%-------------%>
+        test
 
     </div>
 
@@ -63,13 +87,15 @@
 
     
     
-
-</body>
-    <footer class="col-12 navbar navbar-light bg-light navbar footer ">
+      <footer class="col-12 navbar navbar-light bg-light footer ">
         <%-- Home Page Button --%>
   
         <a class="col-1 footcnt" href="html.aspx">home page</a>
         <a class="col-1 footcnt"  href="about.aspx">about</a>
-        <a class="col-10 footcnt"  href="contact.aspx">contact</a>
+        <a class="col-7 footcnt"  href="contact.aspx">contact</a>
+          <a class="col-3"href="http://www.freepik.com">Background Image designed by lifeforstock / Freepik</a>
+         <%-- <a class="col-3"href="https://de.freepik.com/fotos-vektoren-kostenlos/hintergrund">Background Image created by topntp26 - de.freepik.com</a>--%>
     </footer>
+</body>
+  
 </html>
