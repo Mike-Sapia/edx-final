@@ -22,7 +22,7 @@
     <div >
        <nav class="navbar navbar-light bg-light navbar " >
         <h1 class="col-6  OC"><b>Grocery Cloud</b></h1>
-           <p class="col-3" id="Shptxt">About Us</p>
+           <p class="col-3" id="Shptxt">Product Page</p>
            <a class="col-1 footcnt" href="html.aspx">home page</a>
         <a class="col-1 footcnt"  href="Shopping Page.aspx">Shop All</a>
            <a style="color:black;" href="cart.aspx" title="Cart"><i id="cart" class="col-sxs-1 fas fa-shopping-cart"></i></a>
@@ -30,16 +30,10 @@
        </nav>
     </div>
      <%-- Home Page Button --%>
-    <%--<input id="shopbtn" class="btnhome"type="button" onclick="location.href='html.aspx';" value="Home Page" />--%>
+   <%-- <input id="shopbtn" class="btnhome"type="button" onclick="location.href='html.aspx';" value="Home Page" />--%>
 
     <div class=" container jumbotron" id="shopcont">
-            <h4 id="abthd">
-                About Us
-                
-            </h4>
-        <p class="abouttxt">We are proud to offer you our fresh and high quality groceries!</p>
-        <p class="abouttxt2">We sell our groceries since the 80's, since 2008 we offer our products online so it can be accessed by anyone around the world.</p>
-<%--        <a id="credit" href="https://www.freepik.com/free-photos-vectors/background">Background photo created by topntp26 - www.freepik.com</a>--%>
+            
             </div>
      <footer class="col-12 navbar navbar-light bg-light navbar footer ">
 

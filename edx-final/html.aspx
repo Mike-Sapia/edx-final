@@ -42,15 +42,15 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="cbild"  src="img/apfel.png" alt="First slide">
+      <a href="Product.aspx"><img class="cbild"  src="img/apfel.png"  alt="Picture of an apple"></a>
         <p class="ap" >Fresh organic apples, just 5$ per pound!</p>
     </div>
     <div class="carousel-item">
-      <img class="cbild" src="img/schokolade.png" alt="Second slide">
+      <a href="Product.aspx"><img class="cbild" src="img/schokolade.png" alt="Picture of chocolate"></a>
         <p class="ap" >Tasty sweet chocolate, just 8.45$ per bar!</p>
     </div>
     <div class="carousel-item">
-      <img class="cbild " src="img/tomate.png" alt="Third slide">
+    <a href="Product.aspx"> <img class="cbild " src="img/tomate.png" alt="Picture of a tomato"></a>
         <p class="ap">Juicy Tomatoes, just 3$ per pound!</p>
     </div>
   </div>

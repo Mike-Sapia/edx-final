@@ -28,7 +28,7 @@
        </nav>
     </div>
     <%-- Home Page Button --%>
-    <input id="shopbtn" class="btnhome"type="button" onclick="location.href='html.aspx';" value="Home Page" />
+    <%--<input id="shopbtn" class="btnhome"type="button" onclick="location.href='html.aspx';" value="Home Page" />--%>
     <%-- jumbotron container --%>
     <div class="container jumbotron" id="shopcont">
         <h3 >Categories: </h3>

@@ -31,7 +31,7 @@
        </nav>
     </div>
      <%-- Home Page Button --%>
-    <input id="shopbtn" class="btnhome"type="button" onclick="location.href='html.aspx';" value="Home Page" />
+    <%--<input id="shopbtn" class="btnhome"type="button" onclick="location.href='html.aspx';" value="Home Page" />--%>
 
     <div class=" container jumbotron" id="shopcont">
         <h4 id="contacthd">Contact Us</h4>
@@ -39,12 +39,15 @@
        
         <form id="form"role="form">
             <div class="input-group" >
-                <input type="text" class="form-control" placeholder="name">
+                <input type="text" class=" col-6 form-control" placeholder="name">
+               
                 
             </div>
             <div class="form-group">
                
-                <input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter email">
+               
+                <input type="email" class=" col-6 form-control" id="InputEmail" placeholder="Enter email">
+                
             </div>
             <div class="checkbox">
                 <label>
@@ -56,14 +59,14 @@
        
 
         <div class="input-group">
-                <input type="text" class="form-control" placeholder="Subject">
-                <span class="input-group-addon"></span>
+                <input type="text" class="col-6 form-control" placeholder="Subject">
+                
             </div>
 
         <div class="input-group">
                 
-                <input type="text" class="form-control" placeholder="textarea">
-                <span class="input-group-addon"></span>
+                <input type="text" class=" col-6 form-control" placeholder="textarea">
+               
                 
             </div>
             <button type="submit"  id="send" class="btn btn-default">Send</button>
@@ -72,7 +75,7 @@
         <div id="info">
         <h5>Grocery Cloud contact information</h5>
         <p>Email: grocery.cloud@gcloud.com</p>
-        <p>phone number: 01834275643</p>
+        <p>phone number: (839) 465-8019</p>
 
         </div>
 

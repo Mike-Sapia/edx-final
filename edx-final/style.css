@@ -12,6 +12,10 @@
 .indicator{
     color:black!important;
 }
+
+#InputEmail{
+    width:50% !important;
+}
 #Categories {
 }
 #shopbutton {
@@ -35,6 +39,9 @@
 .footer {
     position: absolute;
     bottom: 0px;
+    border-style:solid !important;
+    border-color:black !important;
+    border-width:.05rem;
 }
 #credit
 {
@@ -360,7 +367,7 @@ span {
             background-color: white !important;
             border-radius: 2rem;
             border-style: solid;
-            border-color: lightgray;
+            border-color:lightgray;
         }
         #cat1 {
             font-size: 1.5rem !important;
