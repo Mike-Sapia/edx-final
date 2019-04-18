@@ -8,7 +8,24 @@
 #tss{
     
     font-weight:bold !important;
+    margin-left:70rem;
 }
+.pbild{
+    width:28%;
+    float:left;
+}
+#tests{
+    margin-left:24rem;
+}
+#backbtn {
+    background-color: white;
+    color: black !important;
+    border-color: lightgray;
+    font-weight: bold;
+}
+    #backbtn:hover {
+        background-color: lightgray;
+    }
 .indicator{
     color:black!important;
 }
@@ -35,7 +52,7 @@
 #shopbutton:hover{
     background-color:lightgray;
 }
-
+/*rubric72   positiones the footer on the bottom*/
 .footer {
     position: absolute;
     bottom: 0px;

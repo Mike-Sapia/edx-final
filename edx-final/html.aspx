@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="html.aspx.cs" Inherits="html" %>
-
+<%----------------------- HOME PAGE --------------------%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,20 +12,19 @@
     <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-    <script src="Scripts/jquery-3.3.1.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
+    
 
 
-    <%-- rubric68 --%>
+    <%-- rubric68 places the header on top of the page --%>
     <%-- NAVBAR --%>
     <div >
        <nav class="navbar navbar-light bg-light navbar " >
-        <h1 class="col-6  OC"><b>Grocery Cloud</b></h1>
+       <h1 class="col-6  OC"><b>Grocery Cloud</b></h1>
            <p class="col-3" id="Shptxt">Home Page</p>
-           <%-- rubric65&69 --%>
+           <%-- rubric65&69 creates a link to the home page--%>
            <a class="col-1 footcnt" href="html.aspx">home page</a>
-           <%-- rubric66&70 --%>
-        <a class="col-1 footcnt"  href="Shopping Page.aspx">Shop All</a>
+           <%-- rubric66&70 creates a link to the shopping page --%>
+        <a class="col-1 footcnt"  href="Shopping Page.aspx">shop All</a>
            <%-- rubric67&71 --%>
            <a style="color:black;" href="cart.aspx" title="Cart"><i id="cart" class="col-sxs-1 fas fa-shopping-cart"></i></a>
 
@@ -42,15 +41,15 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <a href="Product.aspx"><img class="cbild"  src="img/apfel.png"  alt="Picture of an apple"></a>
+      <a class="b1" href="Product.aspx"><img class="cbild" src="img/apfel.png"  alt="Picture of an apple"></a>
         <p class="ap" >Fresh organic apples, just 5$ per pound!</p>
     </div>
     <div class="carousel-item">
-      <a href="Product.aspx"><img class="cbild" src="img/schokolade.png" alt="Picture of chocolate"></a>
+      <a href="Product.aspx"><img class="cbild" id="b2" src="img/schokolade.png" alt="Picture of chocolate"></a>
         <p class="ap" >Tasty sweet chocolate, just 8.45$ per bar!</p>
     </div>
     <div class="carousel-item">
-    <a href="Product.aspx"> <img class="cbild " src="img/tomate.png" alt="Picture of a tomato"></a>
+    <a href="Product.aspx"> <img class="cbild "id="b3" src="img/tomate.png" alt="Picture of a tomato"></a>
         <p class="ap">Juicy Tomatoes, just 3$ per pound!</p>
     </div>
   </div>
@@ -76,7 +75,7 @@
   
    
     <%-------------------- rubric05  toggle slideshow------------------------ --%>
-    <div  class=" col-12-center checkbox">
+    <div  class="checkbox">
         <label>
             <input id="tss" type="checkbox">
             Toggle Slide Show
@@ -85,15 +84,18 @@
     <%-- SHOP ALL --%>
     <button  id="shopbutton"class="btn btn-primary"  type="submit"><a id="shopbtntxt" href="Shopping Page.aspx">Shop All</a></button>
      <footer class="col-12 navbar navbar-light bg-light  footer ">
-       <%-- rubric 73&76 --%>
+       <%-- rubric 73&76 creates a link to the homepage--%>
         <a class="col-1 footcnt" href="html.aspx">home page</a>
-       <%-- rubric 74&77 --%>
+       <%-- rubric 74&77 creates a link to the about us page--%>
         <a class="col-1 footcnt"  href="about.aspx">about</a>
-       <%-- rubric 75&78 --%>
+       <%-- rubric 75&78 creates a link to the contact page--%>
         <a class="col-7 footcnt"  href="contact.aspx">contact</a>
          <a class="col-3"href="http://www.freepik.com">Background Image designed by lifeforstock / Freepik</a>
          <%--<a class="col-3"href="https://de.freepik.com/fotos-vektoren-kostenlos/hintergrund">Background Image created by topntp26 - de.freepik.com</a>--%>
     </footer>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+        <script  type="text/javascript"  src="script.js"></script>
 </body>
   
     
