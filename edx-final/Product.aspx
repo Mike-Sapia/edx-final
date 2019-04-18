@@ -39,7 +39,7 @@
         <button  class=" btn btn-primary" id="backbtn" type="submit"><a id="shopbtntxt" id="back" href="html.aspx">back</a></button><br />
 
         <img class=" pbild"  src="img/apfel.png"  alt="Picture of an apple">
-        <p id= "tests">Produktname</p>
+        <p id="tests">Apple</p>
         <%-- qty --%>
         <%-- rubric42 qty input field --%>
         <div class="input-group">
