@@ -8,6 +8,7 @@ $("#send").click(function () {
 });
 
 $(".b1").click(function () {
+
     $("#test").text("sampeltext");
     $("#test").addClass("testingthis");
 });

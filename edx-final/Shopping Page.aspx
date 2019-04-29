@@ -45,7 +45,7 @@
             organic
         </button>
         <div id="collapse11" class="collapse">
-            APPLE
+            <a class="b1" href="Product.aspx"><img class="sbild" src="img/apfel.png"  alt="Picture of an apple"></a>
         </div>
     </div>
         <%-- Categories --%>
@@ -59,7 +59,7 @@
             subcategory
         </button>
         <div id="collapse21" class="collapse">
-            chocolate
+            <a href="Product.aspx"><img class="sbild" id="b2" src="img/schokolade.png" alt="Picture of chocolate"></a>
         </div>
     </div>
 
@@ -72,7 +72,7 @@
             organic
         </button>
         <div id="collapse31" class="collapse">
-            tomato
+             <a href="Product.aspx"> <img class="sbild "id="b3" src="img/tomate.png" alt="Picture of a tomato"></a>
         </div>
     </div>
  </div>
