@@ -39,13 +39,15 @@
         <button  class=" btn btn-primary" id="backbtn" type="submit"><a id="shopbtntxt" id="back" href="html.aspx">back</a></button><br />
 
         <img class=" pbild"  src="img/apfel.png"  alt="Picture of an apple">
-        <p id="tests">Apple</p>
-        <%-- qty --%>
-        <%-- rubric42 qty input field --%>
-        <div class="input-group">
+        <div class="container jumbotron"><p id="tests">Apple</p>
+            <p>price: 0.7$</p>
+            <p id="stock">stock: <span id="stocka">29</span></p>
                 <input type="number" class="col-1 form-control" placeholder="Qty">
                 <span class="input-group-addon"></span>
-            </div>
+        </div>
+        <%-- qty --%>
+        <%-- rubric42 qty input field --%>
+       
             
             </div>
      <footer class="col-12 navbar navbar-light bg-light navbar footer ">

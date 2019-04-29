@@ -34,6 +34,10 @@
     <%-- jumbotron container --%>
     <div class="container jumbotron" id="shopcont">
         <h3 >Categories: </h3>
+         <label>
+            <input  type="checkbox">
+            In Stock only
+        </label>
     <%-- Collapse --%>
     <button type="button" id="cat1" class="  row justify-content-start btn-default" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">
         Vegetables

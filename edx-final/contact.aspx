@@ -62,7 +62,7 @@
             </div>
 
         <div class="input-group">
-                <input type="text" class=" col-6 form-control" placeholder="textarea">
+                <input type="text" class=" col-6 form-control" placeholder="message">
             </div>
             <%-- rubric59 button labeled send --%>
             <button type="submit"  id="send" class="btn btn-default">Send</button>
