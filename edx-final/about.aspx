@@ -44,18 +44,16 @@
         <p class="abouttxt2">We sell our groceries since the 80's, since 2008 we offer our products online so it can be accessed by anyone around the world.</p>
 <%--        <a id="credit" href="https://www.freepik.com/free-photos-vectors/background">Background photo created by topntp26 - www.freepik.com</a>--%>
             </div>
-     <footer class="col-12 navbar navbar-light bg-light navbar footer ">
-
-        
-        <%-- Home Page Button --%>
-  <%-- rubric 73&76 creates a link to the homepage--%>
+    <footer class="col-12 navbar navbar-light bg-light  footer ">
+         <p> ©grocery.cloud@gcloud.com</p>
+       <%-- rubric 73&76 creates a link to the homepage--%>
         <a class="col-1 footcnt" href="html.aspx">home page</a>
-          <%-- rubric 74&77 creates a link to the about us page--%>
+       <%-- rubric 74&77 creates a link to the about us page--%>
         <a class="col-1 footcnt"  href="about.aspx">about</a>
-          <%-- rubric 75&78 creates a link to the contact page--%>
-        <a class="col-7 footcnt"  href="contact.aspx">contact</a>
+       <%-- rubric 75&78 creates a link to the contact page--%>
+        <a class="col-5 footcnt"  href="contact.aspx">contact</a>
          <a class="col-3"href="http://www.freepik.com">Background Image designed by lifeforstock / Freepik</a>
-        <%-- <a class="col-3"href="https://de.freepik.com/fotos-vektoren-kostenlos/hintergrund">Background Image created by topntp26 - de.freepik.com</a>--%>
+         <%--<a class="col-3"href="https://de.freepik.com/fotos-vektoren-kostenlos/hintergrund">Background Image created by topntp26 - de.freepik.com</a>--%>
     </footer>
 </body>
    

@@ -34,6 +34,20 @@
     <%-- jumbotron container --%>
     <div class="container jumbotron" id="shopcont">
         <h3 >Categories: </h3>
+        <%-- rubric17 --%>
+         <label>
+            <input  type="checkbox">
+            In Stock only
+        </label>
+        <%-- rubric17 --%>
+        <div>Sort by:
+        <%-- rubric18  --%>
+        <select class="col-2 custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineformcustomselect" > 
+        <option value="0" selected>none</option>
+        <option value="1">price</option>
+        <option value="2">alphabetical</option>
+        <option value="3">rating</option>
+      </select> </div>
     <%-- Collapse --%>
     <button type="button" id="cat1" class="  row justify-content-start btn-default" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">
         Vegetables
@@ -45,10 +59,13 @@
             organic
         </button>
         <div id="collapse11" class="collapse">
-            APPLE
+              <%-- rubric32 & rubric23 & rubric22 & rubric21 --%>
+            <a class="b1" href="Product.aspx"><img class="sbild" src="img/apfel.png"  alt="Picture of an apple"></a><br /><p>Apple 0.7$</p>
+             <%-- rubric24 --%>
+             <button  class=" btn btn-primary" class="addshp" type="submit"><a class="addtxtshp"  >Add</a></button>
         </div>
     </div>
-        <%-- Categories --%>
+        <%--rubric14 & rubric15 & rubric19 & rubric20 & rubric25 & rubric26  Categories --%>
         <div id="categories">
         <button type="button" id="cat1" class="  row justify-content-start btn-default" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse">
         Sweets
@@ -56,10 +73,14 @@
     <div id="collapse1" class=" collapse">
         
         <button type="button"  class="cat2 btn btn-default" data-toggle="collapse" data-target="#collapse21" aria-expanded="false" aria-controls="collapse">
-            subcategory
+            chocolate
         </button>
         <div id="collapse21" class="collapse">
-            chocolate
+            <%-- rubric32 & rubric23 & rubric22 & rubric21 --%>
+            <a href="Product.aspx"><img class="sbild" id="b2" src="img/schokolade.png" alt="Picture of chocolate"></a> <br />
+            <p>Chocolate 1.4$</p>
+            <%-- rubric24 --%>
+            <button  class=" btn btn-primary" class="addshp" type="submit"><a class="addtxtshp"  >Add</a></button>
         </div>
     </div>
 
@@ -72,7 +93,11 @@
             organic
         </button>
         <div id="collapse31" class="collapse">
-            tomato
+             <%-- rubric32 & rubric23 & rubric22 & rubric21 --%>
+             <a href="Product.aspx"> <img class="sbild "id="b3" src="img/tomate.png" alt="Picture of a tomato"></a><br />
+            <p>Tomato 0.4$</p>
+             <%-- rubric24 --%>
+            <button  class=" btn btn-primary" class="addshp" type="submit"><a class="addtxtshp"  >Add</a></button>
         </div>
     </div>
  </div>
@@ -89,16 +114,16 @@
 
     
     
-      <footer class="col-12 navbar navbar-light bg-light footer ">
-        <%-- Home Page Button --%>
-  <%-- rubric 73&76 creates a link to the homepage--%>
+     <footer class="col-12 navbar navbar-light bg-light  footer ">
+         <p> ©grocery.cloud@gcloud.com</p>
+       <%-- rubric 73&76 creates a link to the homepage--%>
         <a class="col-1 footcnt" href="html.aspx">home page</a>
-           <%-- rubric 74&77 creates a link to the about us page--%>
+       <%-- rubric 74&77 creates a link to the about us page--%>
         <a class="col-1 footcnt"  href="about.aspx">about</a>
-           <%-- rubric 75&78 creates a link to the contact page--%>
-        <a class="col-7 footcnt"  href="contact.aspx">contact</a>
-          <a class="col-3"href="http://www.freepik.com">Background Image designed by lifeforstock / Freepik</a>
-         <%-- <a class="col-3"href="https://de.freepik.com/fotos-vektoren-kostenlos/hintergrund">Background Image created by topntp26 - de.freepik.com</a>--%>
+       <%-- rubric 75&78 creates a link to the contact page--%>
+        <a class="col-5 footcnt"  href="contact.aspx">contact</a>
+         <a class="col-3"href="http://www.freepik.com">Background Image designed by lifeforstock / Freepik</a>
+         <%--<a class="col-3"href="https://de.freepik.com/fotos-vektoren-kostenlos/hintergrund">Background Image created by topntp26 - de.freepik.com</a>--%>
     </footer>
 </body>
   

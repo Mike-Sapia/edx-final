@@ -35,30 +35,39 @@
     <div class=" container jumbotron" id="shopcont">
 
             
-        <%-- rubric 43  back Button--%>
+        <%-- rubric 43 & rubric45 back Button--%>
         <button  class=" btn btn-primary" id="backbtn" type="submit"><a id="shopbtntxt" id="back" href="html.aspx">back</a></button><br />
-
+        <%-- rubric36 --%>
         <img class=" pbild"  src="img/apfel.png"  alt="Picture of an apple">
-        <p id="tests">Apple</p>
-        <%-- qty --%>
-        <%-- rubric42 qty input field --%>
-        <div class="input-group">
+        <div class="container jumbotron">
+            <%-- rubric35 --%>
+            <p id="tests">Apple </p>
+            <%-- rubric37 --%>
+            <p id="rating">Rating 4/5</p>
+            <%-- rubric40 --%>
+            <p>description: fresh juicy regional apple! </p>
+            <%-- rubric39 --%>
+            <p>price: 0.7$</p>
+            <%-- rubric38 --%>
+            <p id="stock">stock: <span id="stocka">29</span></p>
                 <input type="number" class="col-1 form-control" placeholder="Qty">
                 <span class="input-group-addon"></span>
+            <%-- rubric41 --%>
+            <button  class=" btn btn-primary" id="addbtn" type="submit"><a id="addtxt"  >Add</a></button><br />
+        </div>
+        <%-- qty --%>
+        <%-- rubric42 qty input field --%>
             </div>
-            
-            </div>
-     <footer class="col-12 navbar navbar-light bg-light navbar footer ">
-
-        
-  <%-- rubric 73&76 creates a link to the homepage--%>
+     <footer class="col-12 navbar navbar-light bg-light  footer ">
+         <p> ©grocery.cloud@gcloud.com</p>
+       <%-- rubric 73&76 creates a link to the homepage--%>
         <a class="col-1 footcnt" href="html.aspx">home page</a>
-          <%-- rubric 74&77 creates a link to the about us page--%>
+       <%-- rubric 74&77 creates a link to the about us page--%>
         <a class="col-1 footcnt"  href="about.aspx">about</a>
-          <%-- rubric 75&78 creates a link to the contact page--%>
-        <a class="col-7 footcnt"  href="contact.aspx">contact</a>
+       <%-- rubric 75&78 creates a link to the contact page--%>
+        <a class="col-5 footcnt"  href="contact.aspx">contact</a>
          <a class="col-3"href="http://www.freepik.com">Background Image designed by lifeforstock / Freepik</a>
-        <%-- <a class="col-3"href="https://de.freepik.com/fotos-vektoren-kostenlos/hintergrund">Background Image created by topntp26 - de.freepik.com</a>--%>
+         <%--<a class="col-3"href="https://de.freepik.com/fotos-vektoren-kostenlos/hintergrund">Background Image created by topntp26 - de.freepik.com</a>--%>
     </footer>
     
       <script src="Scripts/jquery-3.3.1.min.js"></script>
