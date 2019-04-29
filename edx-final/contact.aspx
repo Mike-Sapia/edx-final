@@ -36,7 +36,7 @@
     <%--<input id="shopbtn" class="btnhome"type="button" onclick="location.href='html.aspx';" value="Home Page" />--%>
 
     <div class=" container jumbotron" id="shopcont">
-        <h4 id="contacthd">Contact Us</h4>
+        <h4 id="contacthd">Contact234124 Us</h4>
 
        <%-- rubric57 form with input fields for name,email,subject,textarea --%>
         <form id="form"role="form">
