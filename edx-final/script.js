@@ -4,7 +4,7 @@ $("#checkout").click(function () {
 });
 //rubric60 creates an alert if the button is clicked
 $("#send").click(function () {
-    alert("succesfully send");
+    alert("send");
 });
 
 $(".b1").click(function () {
