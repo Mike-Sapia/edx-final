@@ -64,6 +64,7 @@
                 <input type="number" class="form-control" placeholder="phone number">
                 <span class="input-group-addon"></span>
             </div>
+        <%-- rubric50 --%>
             <button type="button" id="checkout" class="col-12-center btn btn-default">Checkout</button>
         </div>
         
@@ -73,20 +74,16 @@
     <script src="Scripts/bootstrap.min.js"></script>
         <script  type="text/javascript"  src="script.js"></script>
 </body>
-    <footer class="col-12 navbar navbar-light bg-light navbar footer ">
-        <%--  --%>
-
-
-
-        <%-- Home Page Button --%>
-  <%-- rubric 73&76 creates a link to the homepage--%>
+    <footer class="col-12 navbar navbar-light bg-light  footer ">
+         <p> ©grocery.cloud@gcloud.com</p>
+       <%-- rubric 73&76 creates a link to the homepage--%>
         <a class="col-1 footcnt" href="html.aspx">home page</a>
-         <%-- rubric 74&77 creates a link to the about us page--%>
+       <%-- rubric 74&77 creates a link to the about us page--%>
         <a class="col-1 footcnt"  href="about.aspx">about</a>
-         <%-- rubric 75&78 creates a link to the contact page--%>
-        <a class="col-7 footcnt"  href="contact.aspx">contact</a>
-        <a class="col-3"href="http://www.freepik.com">Background Image designed by lifeforstock / Freepik</a>
-       <%-- <a class="col-3"href="https://de.freepik.com/fotos-vektoren-kostenlos/hintergrund">Background Image created by topntp26 - de.freepik.com</a>--%>
+       <%-- rubric 75&78 creates a link to the contact page--%>
+        <a class="col-5 footcnt"  href="contact.aspx">contact</a>
+         <a class="col-3"href="http://www.freepik.com">Background Image designed by lifeforstock / Freepik</a>
+         <%--<a class="col-3"href="https://de.freepik.com/fotos-vektoren-kostenlos/hintergrund">Background Image created by topntp26 - de.freepik.com</a>--%>
     </footer>
 
    

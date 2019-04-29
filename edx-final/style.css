@@ -1,127 +1,168 @@
-﻿.OC{
-    color:black;
-    font-family:Calibri;
-    margin-right:-13%;
-    font-style:italic;
-    font-size:1rem;
+﻿.OC {
+    color: black;
+    font-family: Calibri;
+    margin-right: -13%;
+    font-style: italic;
+    font-size: 1rem;
 }
-#tss{
-    
-    font-weight:bold !important;
-    margin-left:70rem;
+
+#tss {
+    font-weight: bold !important;
+    margin-left: 70rem;
 }
+
 .sbild {
     width: 8%;
+    border-style: solid;
+    border-width: .05rem;
+    border-color: black;
 }
-.sbild:hover{
-    width:8.3%;
+
+    .sbild:hover {
+        width: 8.3%;
+    }
+
+#textfield {
 }
-.pbild{
-    width:28%;
-    float:left;
+
+#stocka {
+    color: black;
+    border-style: solid;
+    border-width: .06rem;
+    font-family: Calibri;
+    padding: .2rem;
 }
-#tests{
-    margin-left:35%;
-    font-size:1.5rem;
-    font-family:Calibri;
+
+#stock {
+    font-family: Calibri;
 }
+
+.pbild {
+    width: 28%;
+    float: left;
+}
+
+#tests {
+    margin-left: 25%;
+    font-size: 1.5rem;
+    font-family: Calibri;
+}
+
+#rating {
+    font-size: 1.2rem;
+    font-family: Calibri;
+}
+
 #backbtn {
     background-color: white;
     color: black !important;
     border-color: lightgray;
     font-weight: bold;
 }
+
     #backbtn:hover {
         background-color: lightgray;
     }
-.indicator{
-    color:black!important;
+
+#addbtn
+.indicator {
+    color: black !important;
 }
 
-#InputEmail{
-    width:50% !important;
+#InputEmail {
+    width: 50% !important;
 }
+
 #Categories {
 }
+
 #shopbutton {
     margin-left: 48.5%;
-    background-color:white;
-    color:black !important;
-    border-color:lightgray;
-    font-weight:bold;
+    background-color: white;
+    color: black !important;
+    border-color: lightgray;
+    font-weight: bold;
 }
 
-#shopbtntxt{
-    color:black;
+#shopbtntxt {
+    color: black;
 }
-#shopbtntxt:hover{
-    text-decoration:none;
-}
-#shopbutton:hover{
-    background-color:lightgray;
+
+    #shopbtntxt:hover {
+        text-decoration: none;
+    }
+
+#shopbutton:hover {
+    background-color: lightgray;
 }
 /*rubric72   positiones the footer on the bottom*/
 .footer {
     position: absolute;
     bottom: 0px;
-    border-style:solid !important;
-    border-color:black !important;
-    border-width:.05rem;
+    border-width: .05rem;
+    color: black !important;
 }
-#credit
-{
-    font-size:1rem;
+
+#credit {
+    font-size: 1rem;
 }
+
 #bodyabout {
-    
-    background-color:lightsteelblue;
+    background-color: lightsteelblue;
 }
-#abthd
-{
-    font-size:3rem;
-    text-align:center;
-    font-weight:bold;
-    margin-bottom:3rem;
-    
+
+#abthd {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3rem;
 }
+
 #send {
     border-style: solid !important;
     border-color: lightgray;
 }
+
     #send:hover {
         background-color: lightgray !important;
     }
-#info{
-    margin-top:2.5rem;
-    font-style:italic;
+
+#info {
+    margin-top: 2.5rem;
+    font-style: italic;
 }
-.abouttxt{
-    font-size:2rem;
-    text-align:center;
-    font-weight:bold;
-    font-family:Calibri;
-}
-.abouttxt2 {
+
+.abouttxt {
+    font-style: italic;
     font-size: 2rem;
     text-align: center;
-    font-weight: bold;
     font-family: Calibri;
-    margin-bottom:5rem;
 }
+
+.abouttxt2 {
+    font-style: italic;
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: Calibri;
+    margin-bottom: 5rem;
+}
+
 #aboutcont {
     /*background-image: url("img/about-background.jpg") !important;
     background-size:cover;*/
 }
-#checkout{
-    border-style:solid !important;
-    border-color:lightgray;
+
+#checkout {
+    border-style: solid !important;
+    border-color: lightgray;
 }
-#checkout:hover
-{
-    background-color:lightgray!important;
-}
+
+    #checkout:hover {
+        background-color: lightgray !important;
+    }
+
 .cat2 {
-     font-size:1rem !important;
+    font-size: 1rem !important;
     background-color: white;
     color: black;
     font-weight: bold;
@@ -130,42 +171,42 @@
     border-color: lightgray;
     font-family: Calibri;
 }
-.cat2:hover{
-    background-color:lightgray;
-}
+
+    .cat2:hover {
+        background-color: lightgray;
+    }
+
 body {
     background-image: url("img/background1.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
-
 }
 
 span {
     color: blue;
-    width: 540px; 
+    width: 540px;
     height: auto;
 }
 
 
-.cbild{
-    width:20%;
-    margin-left:+40%;
-    background-color:transparent;
-    background-color:transparent;
+.cbild {
+    width: 20%;
+    margin-left: +40%;
+    background-color: transparent;
+    background-color: transparent;
 }
 
 #btn {
-  
 }
 
-.footcnt{
-    color:black;
+.footcnt {
+    color: black;
 }
 
 
-#btn:hover{
-    background-color:lightgray;
-     text-shadow: 0 0 1px black;
+#btn:hover {
+    background-color: lightgray;
+    text-shadow: 0 0 1px black;
 }
 
 .ap {
@@ -176,368 +217,385 @@ span {
     font-weight: bold;
     text-shadow: 0 0 3px lightgray;
 }
-   
-.navbar
 
-{
+.navbar {
     background-color: white !important;
 }
 
-.btnhome{
-    margin-top:1% !important;
+.btnhome {
+    margin-top: 1% !important;
 }
 
-#shopbtn:hover
-{
-    background-color:lightgray;
+#shopbtn:hover {
+    background-color: lightgray;
 }
-    cart{
-        color:black !important;
+
+cart {
+    color: black !important;
+}
+
+/* --------------Extra small --------------------*/
+
+@media (max-device-width: 600px) {
+
+
+    #Shptxt {
+        font-size: 2.1rem;
+        color: black;
+        font-weight: bold;
     }
 
-    /* --------------Extra small --------------------*/
-    
-    @media (max-device-width: 600px) {
-
-       
-        #Shptxt {
-            font-size: 2.1rem;
-            color: black;
-            font-weight: bold;
-        }
-        #shopbtn:hover {
-            background-color: lightsteelblue !important;
-        }
-        #cat1:hover {
-            background-color: lightgray !important;
-        }
-        h3{
-        color:black;
-        font-family:Calibri;
-        font-weight:bold;
-    }
-        #cat1{
-            font-size:1.5rem !important;
-            background-color:white;
-            color:black;
-            font-weight:bold;
-            border-style:solid;
-            border-radius:1rem;
-            border-color:lightgray;
-            font-family:Calibri;
-
-        }
-        #shopcont{
-
-            margin-top:+2rem !important;
-            background-color:white !important;
-            border-radius:2rem;
-            border-style:solid;
-            border-color:lightgray;
-        }
-        #welcometxt {
-            margin-top: 3rem;
-            margin-left: 12rem;
-            color: black;
-            text-align: center;
-        }
-        /*rubric72*/
-      
-        .ap {
-            font-size: 3rem;
-            margin-bottom: +7%;
-        }
-
-        #foottxt {
-            font-family: Calibri;
-            font-style: italic;
-            font-weight: lighter;
-            font-size: 2rem;
-        }
-
-
-        .OC {
-            font-size: 2.5rem;
-            color: black;
-        }
-
-        .cbild {
-            margin-top: 8rem;
-            width: 45%;
-            margin-left: +28%;
-        }
-
-        #btn {
-            margin-top: +10rem;
-            font-size: 3rem !important;
-            font-family: Calibri !important;
-            font-weight: bold !important;
-            border-radius:1rem;
-        }
-        #shopbtn {
-            font-size: 2.5rem !important;
-            font-family: Calibri !important;
-            font-weight: bold !important;
-            background-color:white !important;
-            border-radius:1rem !important;
-            border-style:solid !important;
-        }
-
-        h2 {
-            margin-left: -10rem;
-        }
+    #shopbtn:hover {
+        background-color: lightsteelblue !important;
     }
 
-    /* ----------------Small ----------------- */
-    @media (min-device-width: 600px) {
-        #Shptxt {
-            font-size: 1.5rem;
-            color: black;
-            font-weight: bold;
-            margin-left:5.5%;
-        }
-        #cat1:hover {
-            background-color: lightgray !important;
-        }
-        #shopbtn:hover {
-            background-color: lightgray !important; 
-        }
-        #shopcont {
-            margin-top: +2rem !important;
-            background-color: white !important;
-            border-radius: 2rem;
-            border-style: solid;
-            border-color: lightgray;
-        }
-        #cat1 {
-            font-size: 1.5rem !important;
-            background-color: white;
-            color: black;
-            font-weight: bold;
-            border-style: solid;
-            border-radius: 1rem;
-            border-color: lightgray;
-            font-family: Calibri;
-        }
-        #shopbtn {
-            font-size: 3rem !important;
-            font-family: Calibri !important;
-            font-weight: bold !important;
-            background-color: white !important;
-            border-radius: 1rem !important;
-            border-style: solid !important;
-        }
-        #welcome {
-            margin-top: 5rem;
-            margin-left: 12rem;
-            color: white;
-            text-align: center;
-        }
-
-        #foottxt {
-            font-family: Calibri;
-            font-style: italic;
-            font-weight: lighter;
-            font-size: 2rem;
-        }
-
-        .OC {
-            font-size: 2.5rem;
-            color: black;
-        }
-
-        #btn {
-            margin-top: +10rem;
-            font-size: 3rem !important;
-            font-family: Calibri !important;
-            font-weight: bold !important;
-            border-radius: 1rem !important;
-        }
-
-        .ap {
-            font-size: 2.5rem;
-            margin-bottom: +7%;
-        }
-
-        .cbild {
-            margin-top: 8rem;
-            width: 30%;
-            margin-left: +35%;
-        }
-        /*rubric72*/
-      
-
-
-
-        h2 {
-            margin-left: -10rem;
-        }
+    #cat1:hover {
+        background-color: lightgray !important;
     }
 
-    /* ----------------Medium -------------------- */
-    @media (min-device-width: 768px) {
-        #Shptxt {
-            font-size: 1.5rem;
-            color: black;
-            font-weight: bold;
-        }
-        #cat1:hover {
-            background-color: lightgray !important;
-        }
-        #shopbtn:hover {
-            background-color: lightgray !important;
-        }
-        #shopcont {
-            margin-top: +2rem !important;
-            background-color: white !important;
-            border-radius: 2rem;
-            border-style: solid;
-            border-color:lightgray;
-        }
-        #cat1 {
-            font-size: 1.5rem !important;
-            background-color: white;
-            color: black;
-            font-weight: bold;
-            border-style: solid;
-            border-radius: 1rem;
-            border-color: lightgray;
-            font-family: Calibri;
-        }
-
-        #shopbtn {
-            font-size: 3rem !important;
-            font-family: Calibri !important;
-            font-weight: bold !important;
-            background-color: white !important;
-            border-radius: 1rem !important;
-            border-style: solid !important;
-        }
-        .OC {
-            font-size: 2rem;
-            color: black;
-        }
-
-        #btn {
-            margin-top: +5rem;
-            font-size: 2rem !important;
-            font-family: Calibri !important;
-            font-weight: bold !important;
-            border-radius: 1rem !important;
-        }
-
-        .ap {
-            font-size: 1.75rem;
-            margin-bottom: +7%;
-        }
-
-        .cbild {
-            margin-top: 8rem;
-            width: 20%;
-            margin-left: +39.5%;
-        }
-        /*rubric72*/
-      
-
-        #welcome {
-            margin-top: 2rem;
-            margin-left: 12rem;
-            color: white;
-            text-align: center;
-            font-size: 4rem;
-            font-size: 10rem;
-        }
-
-        h2 {
-            font-size: 1.5rem;
-            color:black;
-        }
+    h3 {
+        color: black;
+        font-family: Calibri;
+        font-weight: bold;
     }
 
-    /* ----------------Large --------------- */
-    @media (min-width: 992px) {
-
-
-        #Shptxt {
-            font-size: 1.5rem;
-            color: black;
-            font-weight:bold;
-        }
-        #cat1:hover {
-            background-color: lightgray !important;
-        }
-        #shopbtn:hover {
-            background-color: lightgray !important;
-        }
-        #shopcont {
-            margin-top: +2rem !important;
-            background-color: white !important;
-            border-radius: 2rem;
-            border-style: solid;
-            border-color: lightgray;
-     
-        }
-        #cat1 {
-            font-size: 1.5rem !important;
-            background-color: white;
-            color: black;
-            font-weight: bold;
-            border-style: solid;
-            border-radius: 1rem;
-            border-color: lightgray;
-            font-family: Calibri;
-        }
-        #shopbtn {
-            font-size: 2.5rem !important;
-            font-family: Calibri !important;
-            font-weight: bold !important;
-            background-color: white !important;
-            border-radius: 1rem !important;
-            border-style: solid !important;
-        }
-        .OC {
-            font-size: 1.5rem;
-            color: black;
-        }
-
-        #btn {
-            margin-top: +5rem;
-            font-size: 1.5rem !important;
-            font-family: Calibri !important;
-            font-weight: bold !important;
-            border-radius: 1rem !important;
-        }
-
-        .ap {
-            font-size: 1.3rem;
-            margin-bottom: +7%;
-        }
-
-        .cbild {
-            margin-top: 2rem;
-            width: 15%;
-            margin-left: +42%;
-        }
-        /*rubric72*/
-      
-
-
-        #welcome {
-            margin-top: 2rem;
-            margin-left: 12rem;
-            color: white;
-            text-align: center;
-            font-size: 4rem;
-            font-size: 10rem;
-        }
-
-        h2 {
-            font-size: 1.5rem;
-        }
+    #cat1 {
+        font-size: 1.5rem !important;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border-style: solid;
+        border-radius: 1rem;
+        border-color: lightgray;
+        font-family: Calibri;
     }
 
-    /* Extra large */
-    @media (min-width: 1200px) {
-        
+    #shopcont {
+        margin-top: +2rem !important;
+        background-color: white !important;
+        border-radius: 2rem;
+        border-style: solid;
+        border-color: lightgray;
     }
-    
+
+    #welcometxt {
+        margin-top: 3rem;
+        margin-left: 12rem;
+        color: black;
+        text-align: center;
+    }
+    /*rubric72*/
+
+    .ap {
+        font-size: 3rem;
+        margin-bottom: +7%;
+    }
+
+    #foottxt {
+        font-family: Calibri;
+        font-style: italic;
+        font-weight: lighter;
+        font-size: 2rem;
+    }
+
+
+    .OC {
+        font-size: 2.5rem;
+        color: black;
+    }
+
+    .cbild {
+        margin-top: 8rem;
+        width: 45%;
+        margin-left: +28%;
+    }
+
+    #btn {
+        margin-top: +10rem;
+        font-size: 3rem !important;
+        font-family: Calibri !important;
+        font-weight: bold !important;
+        border-radius: 1rem;
+    }
+
+    #shopbtn {
+        font-size: 2.5rem !important;
+        font-family: Calibri !important;
+        font-weight: bold !important;
+        background-color: white !important;
+        border-radius: 1rem !important;
+        border-style: solid !important;
+    }
+
+    h2 {
+        margin-left: -10rem;
+    }
+}
+
+/* ----------------Small ----------------- */
+@media (min-device-width: 600px) {
+    #Shptxt {
+        font-size: 1.5rem;
+        color: black;
+        font-weight: bold;
+        margin-left: 5.5%;
+    }
+
+    #cat1:hover {
+        background-color: lightgray !important;
+    }
+
+    #shopbtn:hover {
+        background-color: lightgray !important;
+    }
+
+    #shopcont {
+        margin-top: +2rem !important;
+        background-color: white !important;
+        border-radius: 2rem;
+        border-style: solid;
+        border-color: lightgray;
+    }
+
+    #cat1 {
+        font-size: 1.5rem !important;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border-style: solid;
+        border-radius: 1rem;
+        border-color: lightgray;
+        font-family: Calibri;
+    }
+
+    #shopbtn {
+        font-size: 3rem !important;
+        font-family: Calibri !important;
+        font-weight: bold !important;
+        background-color: white !important;
+        border-radius: 1rem !important;
+        border-style: solid !important;
+    }
+
+    #welcome {
+        margin-top: 5rem;
+        margin-left: 12rem;
+        color: white;
+        text-align: center;
+    }
+
+    #foottxt {
+        font-family: Calibri;
+        font-style: italic;
+        font-weight: lighter;
+        font-size: 2rem;
+    }
+
+    .OC {
+        font-size: 2.5rem;
+        color: black;
+    }
+
+    #btn {
+        margin-top: +10rem;
+        font-size: 3rem !important;
+        font-family: Calibri !important;
+        font-weight: bold !important;
+        border-radius: 1rem !important;
+    }
+
+    .ap {
+        font-size: 2.5rem;
+        margin-bottom: +7%;
+    }
+
+    .cbild {
+        margin-top: 8rem;
+        width: 30%;
+        margin-left: +35%;
+    }
+    /*rubric72*/
+
+
+
+
+    h2 {
+        margin-left: -10rem;
+    }
+}
+
+/* ----------------Medium -------------------- */
+@media (min-device-width: 768px) {
+    #Shptxt {
+        font-size: 1.5rem;
+        color: black;
+        font-weight: bold;
+    }
+
+    #cat1:hover {
+        background-color: lightgray !important;
+    }
+
+    #shopbtn:hover {
+        background-color: lightgray !important;
+    }
+
+    #shopcont {
+        margin-top: +2rem !important;
+        background-color: white !important;
+        border-radius: 2rem;
+        border-style: solid;
+        border-color: lightgray;
+    }
+
+    #cat1 {
+        font-size: 1.5rem !important;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border-style: solid;
+        border-radius: 1rem;
+        border-color: lightgray;
+        font-family: Calibri;
+    }
+
+    #shopbtn {
+        font-size: 3rem !important;
+        font-family: Calibri !important;
+        font-weight: bold !important;
+        background-color: white !important;
+        border-radius: 1rem !important;
+        border-style: solid !important;
+    }
+
+    .OC {
+        font-size: 2rem;
+        color: black;
+    }
+
+    #btn {
+        margin-top: +5rem;
+        font-size: 2rem !important;
+        font-family: Calibri !important;
+        font-weight: bold !important;
+        border-radius: 1rem !important;
+    }
+
+    .ap {
+        font-size: 1.75rem;
+        margin-bottom: +7%;
+    }
+
+    .cbild {
+        margin-top: 8rem;
+        width: 20%;
+        margin-left: +39.5%;
+    }
+    /*rubric72*/
+
+
+    #welcome {
+        margin-top: 2rem;
+        margin-left: 12rem;
+        color: white;
+        text-align: center;
+        font-size: 4rem;
+        font-size: 10rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        color: black;
+    }
+}
+
+/* ----------------Large --------------- */
+@media (min-width: 992px) {
+
+
+    #Shptxt {
+        font-size: 1.5rem;
+        color: black;
+        font-weight: bold;
+    }
+
+    #cat1:hover {
+        background-color: lightgray !important;
+    }
+
+    #shopbtn:hover {
+        background-color: lightgray !important;
+    }
+
+    #shopcont {
+        margin-top: +2rem !important;
+        background-color: white !important;
+        border-radius: 2rem;
+        border-style: solid;
+        border-color: lightgray;
+    }
+
+    #cat1 {
+        font-size: 1.5rem !important;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border-style: solid;
+        border-radius: 1rem;
+        border-color: lightgray;
+        font-family: Calibri;
+    }
+
+    #shopbtn {
+        font-size: 2.5rem !important;
+        font-family: Calibri !important;
+        font-weight: bold !important;
+        background-color: white !important;
+        border-radius: 1rem !important;
+        border-style: solid !important;
+    }
+
+    .OC {
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    #btn {
+        margin-top: +5rem;
+        font-size: 1.5rem !important;
+        font-family: Calibri !important;
+        font-weight: bold !important;
+        border-radius: 1rem !important;
+    }
+
+    .ap {
+        font-size: 1.3rem;
+        margin-bottom: +7%;
+    }
+
+    .cbild {
+        margin-top: 2rem;
+        width: 15%;
+        margin-left: +42%;
+    }
+    /*rubric72*/
+
+
+
+    #welcome {
+        margin-top: 2rem;
+        margin-left: 12rem;
+        color: white;
+        text-align: center;
+        font-size: 4rem;
+        font-size: 10rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Extra large */
+@media (min-width: 1200px) {
+}
